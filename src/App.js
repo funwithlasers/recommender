@@ -1,8 +1,8 @@
 //import "./App.css";
 import "./Components/Category";
 //import Category from "./Components/Category";
-import { Recommendation } from "./Components/Recommendation";
-import TheLibraryAtMountChar from "./images/the-library-at-mount-char.jpg";
+import Recommendation from "./Components/Recommendation";
+import TheLibraryAtMountChar from "./images/the-library-at-mount-char.png";
 import IAmPilgrim from "./images/i-am-pilgrim.jpg";
 
 function App() {
@@ -33,21 +33,21 @@ function App() {
                   A library with the secrets to the universe. 
                   A woman too busy to notice her heart slipping away."
                   publishDate="2016-3-15"
-                ></Recommendation>
+                />
               </div>
               <div className="column is-4">
                 <Recommendation
                   title="I Am Pilgrim"
                   author="Terry Hayes"
                   image={IAmPilgrim}
-                ></Recommendation>
-              </div>
+                  />
+                  </div>
               <div className="column is-4">
                 <Recommendation
-                  title="I Forgot"
-                  author="Someone"
-                ></Recommendation>
-              </div>
+                  title="Hide and Seek"
+                  author="Jack Ketchum"
+                  />
+                  </div>
             </div>
           </section>
         </div>
