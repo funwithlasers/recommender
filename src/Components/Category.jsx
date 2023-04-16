@@ -8,4 +8,4 @@ function Category({ title, src }) {
     )
 }
 
-export { Category }
+export default Category;

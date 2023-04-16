@@ -27,4 +27,4 @@ function Recommendation({ title, author, image, description, publishDate }) {
   );
 }
 
-export { Recommendation };
+export default Recommendation;
