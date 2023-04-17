@@ -1,4 +1,4 @@
-import "bulma/css/bulma.css";
+import 'bulma/css/bulma.css';
 
 function Recommendation({ title, author, image, description, publishDate }) {
   return (
@@ -27,4 +27,4 @@ function Recommendation({ title, author, image, description, publishDate }) {
   );
 }
 
-export { Recommendation };
+export default Recommendation;
